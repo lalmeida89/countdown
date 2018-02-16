@@ -1,0 +1,150 @@
+body{
+	text-align: center;
+  font-family: 'Quattrocento Sans';
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	border: 1px solid #484848;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px;
+	background-color: #ffffff85;
+	padding: 5px 20px 15px;
+	width: 200px;
+}
+
+html {
+  background: url('https://preview.ibb.co/dKZud7/prettypic.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 150%;
+}
+
+.hidden {
+	display: none;
+}
+
+h1{
+  color: #3566b5eb;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 10px 0px 20px;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h2 {
+	font-size: 18px;
+	color: #3566b5eb;
+}
+#ccl{
+	font-family: 'Quattrocento Sans';
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#ccl > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #27E1EF;
+	display: inline-block;
+	width: 70px;
+}
+
+#ccl div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #9CED9A;
+	display: block;
+}
+
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#finish {
+  text-align: center;
+  display: none;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+
+}
+
+.finish-div{
+  padding: 30px;
+	border-radius: 3px;
+	background: #00BF96;
+  display: inline-block;
+}
+
+.gifBtn {
+	background-color: #27E1EF;
+	color: red;
+	border-radius: 10px;
+	padding: 7px;
+	font-family: 'Quattrocento Sans';
+	font-size: 14px;
+	border: 1px solid #fff;
+	width: 75px;
+}
+
+.modal {
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  left: -90px;
+  top: -120px;
+	right: 200px;
+  width: 400px;
+  height: 400px;
+  overflow: contain;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal img{
+  width: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+	.modal {
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    margin: 25vw auto;
+	}
+
+
+}
